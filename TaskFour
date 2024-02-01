@@ -1,0 +1,37 @@
+  String address;
+  int a = 10+10;
+  float b = 10/10;
+  String c = "Sushi";
+
+void setup(){
+  address="Springbanen 35 st. tv.";
+  println("Adresse: " +address);
+  println("Sum af tal: " +a);
+  println("Division: " +b);
+  println("Livret: " +c);
+  address= "Firskovvej 18";
+  a=20+20;
+  b=20/20;
+  c="Pepperoni pizza";
+  println("Adresse: "+ address);
+  println("Sum af tal: " +a);
+  println("Division: " +b);
+  println("Livret: " +c);
+  a=a+10;
+  b=b/10;
+  c=c+" med dressing";
+  println(a);
+  println(b);
+  println(c);
+  a++;
+  b++;
+  println(a);
+  println(b);
+  a+=3;
+  b+=3;
+  println(a);
+  println(b);
+  a--;
+  b--;
+  println(a);
+  println(b);
