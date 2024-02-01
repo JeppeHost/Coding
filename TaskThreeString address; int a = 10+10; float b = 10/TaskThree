@@ -1,4 +1,0 @@
-String address;
-int a = 10+10;
-float b = 10/10;
-String c = "Sushi";
